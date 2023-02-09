@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+   <title>ROZA</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <h1 class="header__title">Молоко від рози</h1>
+         </div>
+      </header>
+      <main class="page">
+         <div class="main__container">
+            <section class="items">
+               <div data-id="01" class="item" data-item>
+                  <div class="item__img">
+                     <img src="img/milk.webp" alt="image">
+                  </div>
+                  <div class="item__content content-item">
+                     <div class="content-item__title">Молоко</div>
+                     <div class="content-item__quantity quantity">
+                        <div data-action class="quantity-minus">-</div>
+                        <div class="quantity__text" data-counter>1</div>
+                        <div data-action class="quantity-plus">+</div>
+                        <div class="quantity__prise">70грн</div>
+                     </div>
+                  </div>
+                  <div class="content-item__btn">
+                     <button type="button" data-btn>В корзину</button>
+                  </div>
+               </div>
+
+               <div data-id="02" class="item" data-item>
+                  <div class="item__img">
+                     <img src="img/sur.webp" alt="image">
+                  </div>
+                  <div class="item__content content-item">
+                     <div class="content-item__title">Сир</div>
+                     <div class="content-item__quantity quantity">
+                        <div data-action class="quantity-minus">-</div>
+                        <div class="quantity__text" data-counter>1</div>
+                        <div data-action class="quantity-plus">+</div>
+                        <div class="quantity__prise">150грн</div>
+                     </div>
+                  </div>
+                  <div class="content-item__btn">
+                     <button type="button" data-btn>В корзину</button>
+                  </div>
+               </div>
+
+               <div data-id="03" class="item" data-item>
+                  <div class="item__img">
+                     <img src="img/smetana.webp" alt="image">
+                  </div>
+                  <div class="item__content content-item">
+                     <div class="content-item__title">Cметана</div>
+                     <div class="content-item__quantity quantity">
+                        <div data-action class="quantity-minus">-</div>
+                        <div class="quantity__text" data-counter>1</div>
+                        <div data-action class="quantity-plus">+</div>
+                        <div class="quantity__prise">100грн</div>
+                     </div>
+                  </div>
+                  <div class="content-item__btn">
+                     <button type="button" data-btn>В корзину</button>
+                  </div>
+               </div>
+            </section>
+            <div class="cart">
+               <div   class="cart__title">Корзина</div>
+               <div data-cart-empty class="cart__not">Корзина пуста</div>
+               <div class="cart__blocks">
+             </div>
+            <div id="order-form" class="pay-info none">
+                <p>Можлива доставка</p>
+                <div class="total_pr-p">
+                  <p class="total-price-1">Сума до сплати</p>
+                  <p class="total-price"> 0</p>
+                  <p class="total-price-2"> грн</p>
+                </div>
+               <button class="pay">Оплатити онлайн</button>
+            </di >
+            </div>
+         </div>
+      </div>
+      </main>
+      <footer class="footer">c</footer>
+   </div>
+   <script src="js.js"></script>
+</body>
+
+</html>
